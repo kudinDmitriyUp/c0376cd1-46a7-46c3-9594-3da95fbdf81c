@@ -56,6 +56,14 @@ export default function LandingPage() {
               href: "pricing"
             }
           ]}
+          globeConfig={{
+            baseColor: [212, 168, 138],
+            markerColor: [201, 161, 122],
+            glowColor: [232, 203, 184],
+            dark: 0.3,
+            diffuse: 0.7,
+            mapBrightness: 1.2
+          }}
           className="py-20"
           containerClassName="text-center"
           titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
@@ -234,6 +242,8 @@ export default function LandingPage() {
           containerStyle="default"
           textboxLayout="default"
           useInvertedBackground="noInvert"
+          titleClassName="text-4xl font-bold"
+          descriptionClassName="text-lg text-foreground/70"
         />
       </div>
 
@@ -305,7 +315,6 @@ export default function LandingPage() {
           containerStyle="default"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl font-bold"
           descriptionClassName="text-lg text-foreground/70"
         />
       </div>
