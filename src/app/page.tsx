@@ -234,8 +234,6 @@ export default function LandingPage() {
           containerStyle="default"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/70"
         />
       </div>
 
