@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -40,7 +40,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="hero" data-section="hero" className="relative overflow-hidden">
+      <div id="hero" data-section="hero">
         <HeroGlobe
           title="Find Your Inner Balance"
           description="Transform your body and mind through personalized pilates classes. Experience the perfect blend of strength, flexibility, and mindfulness in our serene studio."
@@ -56,14 +56,6 @@ export default function LandingPage() {
               href: "pricing"
             }
           ]}
-          globeConfig={{
-            baseColor: [212, 168, 138],
-            markerColor: [201, 161, 122],
-            glowColor: [232, 203, 184],
-            dark: 0.3,
-            diffuse: 0.7,
-            mapBrightness: 1.2
-          }}
           className="py-20"
           containerClassName="text-center"
           titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
@@ -100,7 +92,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="classes" data-section="classes" className="py-20 bg-background-accent/5">
+      <div id="classes" data-section="classes">
         <FeatureCardTwenty
           images={[
             {
@@ -141,7 +133,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="team" data-section="team" className="py-20">
+      <div id="team" data-section="team">
         <TeamCardSeven
           team={[
             {
@@ -177,7 +169,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="testimonials" data-section="testimonials" className="py-20 bg-background-accent/5">
+      <div id="testimonials" data-section="testimonials">
         <TestimonialCardOne
           testimonials={[
             {
@@ -247,7 +239,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="pricing" data-section="pricing" className="py-20">
+      <div id="pricing" data-section="pricing">
         <PricingCardOne
           title="Choose Your Perfect Plan"
           description="Flexible membership options designed to fit your lifestyle and goals"
@@ -320,7 +312,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="faq" data-section="faq" className="py-20 bg-background-accent/5">
+      <div id="faq" data-section="faq">
         <FaqDouble
           title="Frequently Asked Questions"
           description="Find answers to common questions about our studio, classes, and membership"
