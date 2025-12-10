@@ -31,12 +31,10 @@ export default function LandingPage() {
         <NavbarStyleMinimal
           brandName="Serenity Pilates"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765399796981-lw9smjiv.jpg"
-          logoAlt="Serenity Pilates Logo"
           button={{
             text: "Book Class",
             href: "contact"
           }}
-          className="bg-background border-b border-accent/20"
         />
       </div>
 
@@ -56,14 +54,6 @@ export default function LandingPage() {
               href: "pricing"
             }
           ]}
-          globeConfig={{
-            baseColor: [212, 168, 138],
-            markerColor: [201, 161, 122],
-            glowColor: [232, 203, 184],
-            dark: 0.3,
-            diffuse: 0.7,
-            mapBrightness: 1.2
-          }}
           className="py-20"
           containerClassName="text-center"
           titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
